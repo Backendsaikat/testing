@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const env = require('dotenv').config(); // Load environment variables from .env file
-// MongoDB URL
-const url=process.env.url; // Use the URL from the environment variable
+const url="mongodb+srv://iitianmonk:Saikat1234@cluster0.5g3geco.mongodb.net/"; // MongoDB URL
+// const url=process.env.url; // Use the URL from the environment variable
 mongoose.connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true
